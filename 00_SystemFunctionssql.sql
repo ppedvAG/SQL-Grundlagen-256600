@@ -5,6 +5,10 @@ USE northwind
 Mehrzeiliger Kommentar mit Schrägstrich und Sternchen
 */
 
+-- Mit Select einfache Ausgabe machen
+select 101 as 'ID', 'Franz' as 'Name', 31 as 'Alter'
+
+
 -- String Funktionen bzw. Text-Datentypen 
 -- LEN gibt die Länge eines Strings zurück, einschließlich Leerzeichen
 select len(CompanyName) From Customers
