@@ -10,7 +10,11 @@ select CustomerID as KundenID,
 
 select ProductID as ProduktID, 
 		ProductName as Pruduktname, 
+<<<<<<< HEAD
 		UnitPrice as Stückpreis 
+=======
+		UnitPrice as StÃ¼ckpreis 
+>>>>>>> 2d082061b1b679041a4bd52cf9639bcaf861e788
 		from Products
 
 select Freight as Nettofrachtkosten,
@@ -26,6 +30,12 @@ select Freight as Nettofrachtkosten,
 select Freight as Nettofrachtkosten,
 		STR(Freight * 1.19, 10, 2) as Bruttofrachtkosten,
 		STR(Freight * 0.19, 10, 2) as MwSt from Orders
+<<<<<<< HEAD
 		-- STR(Spalte, Länge, Anzahl der Dezimalstellen) 
 		-- gibt die Zahl als String zurück, wobei die Länge die Gesamtzahl der Zeichen angibt, 
 		-- einschließlich Dezimalpunkt und Vorzeichen.
+=======
+		-- STR(Spalte, LÃ¤nge, Anzahl der Dezimalstellen) 
+		-- gibt die Zahl als String zurÃ¼ck, wobei die LÃ¤nge die Gesamtzahl der Zeichen angibt, 
+		-- einschlieÃŸlich Dezimalpunkt und Vorzeichen.
+>>>>>>> 2d082061b1b679041a4bd52cf9639bcaf861e788
